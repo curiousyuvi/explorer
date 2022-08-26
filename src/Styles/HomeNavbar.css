@@ -1,0 +1,9 @@
+.home-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.home-navbar .logo {
+  width: 10rem;
+}/*# sourceMappingURL=HomeNavbar.css.map */
