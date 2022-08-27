@@ -13,8 +13,9 @@
 
 .search_input {
   width: 100%;
-  font-size: medium;
-  padding: 0.3rem;
+  font-size: large;
+  padding: 0.7rem;
+  padding-right: 3rem;
   border: none;
   outline: none;
   background-color: rgba(255, 255, 255, 0);
@@ -24,6 +25,6 @@
 .search_icon {
   position: absolute;
   right: 1rem;
-  font-size: $x-large;
+  font-size: large;
   color: $xlight-font-color;
 }
