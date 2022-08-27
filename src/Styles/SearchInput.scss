@@ -1,0 +1,29 @@
+@import "./Variables.scss";
+@import "./Mixins.scss";
+
+.search_wrapper {
+  width: 100%;
+  max-width: $max-w;
+  position: relative;
+  display: flex;
+  align-items: center;
+  @include glass-morphism;
+  border-radius: 1rem;
+}
+
+.search_input {
+  width: 100%;
+  font-size: medium;
+  padding: 0.3rem;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+  color: $base-font-color;
+}
+
+.search_icon {
+  position: absolute;
+  right: 1rem;
+  font-size: $x-large;
+  color: $xlight-font-color;
+}
