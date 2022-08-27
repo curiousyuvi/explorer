@@ -8,7 +8,7 @@
 .latest-trends_wrapper ::-webkit-scrollbar-track {
   visibility: hidden;
 }
-.latest-trends_wrapper h1 {
+.latest-trends_wrapper h2 {
   margin: 0;
   margin-bottom: 1rem;
   font-weight: 500;

@@ -9,7 +9,7 @@ const LatestTrends = () => {
 
   useEffect(() => {
     const loadItems = async () => {
-      setItems(await getProducts(10));
+      setItems(await getProducts());
     };
 
     loadItems();
@@ -17,7 +17,7 @@ const LatestTrends = () => {
 
   return (
     <div className="latest-trends_wrapper">
-      <h1>Latest Trends</h1>
+      <h2>Latest Trends</h2>
       <div className="latest-trends_list">
         {items.map((item) => {
           return <LatestTrendsItem product={item} />;
