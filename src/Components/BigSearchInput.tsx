@@ -10,7 +10,7 @@ const BigSearchInput = ({
 }: {
   value: string;
   placeholder: string;
-  onChange: (e: any) => void;
+  onChange: React.ChangeEventHandler<HTMLInputElement>;
 }) => {
   const searchInput = useRef(null);
   const isInputFocused = document.activeElement === searchInput.current;

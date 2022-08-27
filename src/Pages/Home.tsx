@@ -7,7 +7,7 @@ import "../Styles/Home.css";
 const Home = () => {
   const [query, setQuery] = useState<string>("");
   const navigator = useNavigate();
-  const handleInputChange = (e: any) => {
+  const handleInputChange: React.ChangeEventHandler<HTMLInputElement> = (e) => {
     setQuery(e.target.value);
   };
   const handleFormSubmit: React.FormEventHandler<HTMLFormElement> = (event) => {
