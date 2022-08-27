@@ -1,0 +1,23 @@
+.latest-trends_wrapper {
+  width: 100%;
+  height: 100%;
+}
+.latest-trends_wrapper ::-webkit-scrollbar {
+  visibility: hidden;
+}
+.latest-trends_wrapper ::-webkit-scrollbar-track {
+  visibility: hidden;
+}
+.latest-trends_wrapper h1 {
+  margin: 0;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: x-large;
+}
+
+.latest-trends_list {
+  display: flex;
+  justify-items: start;
+  align-items: flex-start;
+  overflow-x: auto;
+}/*# sourceMappingURL=LatestTrends.css.map */

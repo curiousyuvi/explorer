@@ -1,0 +1,33 @@
+@import "./Variables.scss";
+
+.latest-trends-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: start;
+  margin-right: 1rem;
+  text-decoration: none !important;
+
+  div {
+    width: 13rem;
+    height: 18rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 1rem;
+    padding: 0.5rem;
+  }
+  div img {
+    height: 100%;
+  }
+
+  p {
+    color: $light-font-color;
+    width: 12rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
