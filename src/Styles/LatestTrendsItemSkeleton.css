@@ -1,0 +1,22 @@
+.latest-trends-item-skeleton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: start;
+  margin-right: 1rem;
+  text-decoration: none !important;
+}
+.latest-trends-item-skeleton .image-placeholder {
+  width: 13rem;
+  height: 18rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+.latest-trends-item-skeleton .title-placeholder {
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  height: 1rem;
+  width: 10rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}/*# sourceMappingURL=LatestTrendsItemSkeleton.css.map */

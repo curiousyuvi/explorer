@@ -1,0 +1,29 @@
+.latest-trends-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: start;
+  margin-right: 1rem;
+  text-decoration: none !important;
+}
+.latest-trends-item div {
+  width: 13rem;
+  height: 18rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+.latest-trends-item div img {
+  height: 100%;
+}
+.latest-trends-item p {
+  color: rgba(39, 39, 39, 0.7);
+  width: 12rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}/*# sourceMappingURL=LatestTrendsItem.css.map */

@@ -1,0 +1,26 @@
+@import "./Mixins.scss";
+
+.latest-trends_wrapper {
+  @include full-screen;
+  ::-webkit-scrollbar {
+    visibility: hidden;
+  }
+
+  ::-webkit-scrollbar-track {
+    visibility: hidden;
+  }
+
+  h2 {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: x-large;
+  }
+}
+
+.latest-trends_list {
+  display: flex;
+  justify-items: start;
+  align-items: flex-start;
+  overflow-x: auto;
+}
