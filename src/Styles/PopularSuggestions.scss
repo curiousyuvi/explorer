@@ -17,4 +17,17 @@
     font-weight: 500;
     font-size: x-large;
   }
+
+  .skeleton_list {
+    @for $i from 1 through 50 {
+      :nth-child(#{$i}) {
+        width: random(30) + rem;
+        height: 1rem;
+        background-color: $xlight-font-color;
+        opacity: 30%;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+      }
+    }
+  }
 }
