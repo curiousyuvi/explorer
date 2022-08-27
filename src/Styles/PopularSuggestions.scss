@@ -9,6 +9,15 @@
     text-decoration: none;
     color: $light-font-color;
     margin-bottom: 0.4rem;
+    transition-duration: 300ms;
+  }
+
+  a:hover {
+    color: $base-font-color;
+  }
+
+  a:hover::after {
+    content: "🔍";
   }
 
   h2 {

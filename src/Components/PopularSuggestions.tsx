@@ -23,13 +23,20 @@ const PopularSuggestions = () => {
       {!loading ? (
         items.map((item) => <Link to={`/${item.title}`}>{item.title}</Link>)
       ) : (
-        <div className="skeleton_list">
-          <div className="skeleton_item" />
-          <div className="skeleton_item" />
-          <div className="skeleton_item" />
-          <div className="skeleton_item" />
-        </div>
+        <SkeletonList />
       )}
+    </div>
+  );
+};
+
+const SkeletonList = () => {
+  return (
+    <div className="skeleton_list">
+      {Array(4)
+        .fill("NaN")
+        .map((e) => (
+          <div className="skeleton_item" />
+        ))}
     </div>
   );
 };
