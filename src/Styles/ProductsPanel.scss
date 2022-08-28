@@ -1,0 +1,5 @@
+@import "./Mixins.scss";
+
+.products-panel {
+  @include full-screen;
+}

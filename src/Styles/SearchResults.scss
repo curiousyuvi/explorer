@@ -5,5 +5,12 @@
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
+
+  .panel-wrapper {
+    @include full-screen;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
 }

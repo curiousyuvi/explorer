@@ -23,7 +23,7 @@
   font-size: x-large;
 }
 .popular-suggestions .skeleton_list :nth-child(1) {
-  width: 21rem;
+  width: 28rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -31,126 +31,6 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(2) {
-  width: 14rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(3) {
-  width: 5rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(4) {
-  width: 13rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(5) {
-  width: 14rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(6) {
-  width: 8rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(7) {
-  width: 17rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(8) {
-  width: 14rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(9) {
-  width: 2rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(10) {
-  width: 14rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(11) {
-  width: 25rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(12) {
-  width: 13rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(13) {
-  width: 7rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(14) {
-  width: 2rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(15) {
-  width: 30rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(16) {
-  width: 8rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(17) {
   width: 11rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
@@ -158,8 +38,128 @@
   margin-bottom: 1rem;
   border-radius: 1rem;
 }
+.popular-suggestions .skeleton_list :nth-child(3) {
+  width: 30rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(4) {
+  width: 24rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(5) {
+  width: 18rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(6) {
+  width: 10rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(7) {
+  width: 14rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(8) {
+  width: 8rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(9) {
+  width: 25rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(10) {
+  width: 9rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(11) {
+  width: 30rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(12) {
+  width: 17rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(13) {
+  width: 11rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(14) {
+  width: 13rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(15) {
+  width: 28rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(16) {
+  width: 20rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(17) {
+  width: 15rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
 .popular-suggestions .skeleton_list :nth-child(18) {
-  width: 21rem;
+  width: 26rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -167,7 +167,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(19) {
-  width: 29rem;
+  width: 2rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -175,7 +175,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(20) {
-  width: 23rem;
+  width: 19rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -191,7 +191,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(22) {
-  width: 28rem;
+  width: 5rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -207,38 +207,6 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(24) {
-  width: 9rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(25) {
-  width: 25rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(26) {
-  width: 9rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(27) {
-  width: 7rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(28) {
   width: 29rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
@@ -246,8 +214,40 @@
   margin-bottom: 1rem;
   border-radius: 1rem;
 }
+.popular-suggestions .skeleton_list :nth-child(25) {
+  width: 2rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(26) {
+  width: 18rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(27) {
+  width: 18rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(28) {
+  width: 6rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
 .popular-suggestions .skeleton_list :nth-child(29) {
-  width: 8rem;
+  width: 12rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -263,7 +263,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(31) {
-  width: 28rem;
+  width: 10rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -271,46 +271,6 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(32) {
-  width: 26rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(33) {
-  width: 9rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(34) {
-  width: 25rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(35) {
-  width: 20rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(36) {
-  width: 2rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(37) {
   width: 16rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
@@ -318,7 +278,15 @@
   margin-bottom: 1rem;
   border-radius: 1rem;
 }
-.popular-suggestions .skeleton_list :nth-child(38) {
+.popular-suggestions .skeleton_list :nth-child(33) {
+  width: 1rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(34) {
   width: 30rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
@@ -326,31 +294,15 @@
   margin-bottom: 1rem;
   border-radius: 1rem;
 }
-.popular-suggestions .skeleton_list :nth-child(39) {
-  width: 17rem;
+.popular-suggestions .skeleton_list :nth-child(35) {
+  width: 5rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
   margin-bottom: 1rem;
   border-radius: 1rem;
 }
-.popular-suggestions .skeleton_list :nth-child(40) {
-  width: 22rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(41) {
-  width: 30rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(42) {
+.popular-suggestions .skeleton_list :nth-child(36) {
   width: 20rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
@@ -358,31 +310,23 @@
   margin-bottom: 1rem;
   border-radius: 1rem;
 }
-.popular-suggestions .skeleton_list :nth-child(43) {
-  width: 25rem;
+.popular-suggestions .skeleton_list :nth-child(37) {
+  width: 10rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
   margin-bottom: 1rem;
   border-radius: 1rem;
 }
-.popular-suggestions .skeleton_list :nth-child(44) {
-  width: 11rem;
+.popular-suggestions .skeleton_list :nth-child(38) {
+  width: 3rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
   margin-bottom: 1rem;
   border-radius: 1rem;
 }
-.popular-suggestions .skeleton_list :nth-child(45) {
-  width: 6rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(46) {
+.popular-suggestions .skeleton_list :nth-child(39) {
   width: 22rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
@@ -390,8 +334,64 @@
   margin-bottom: 1rem;
   border-radius: 1rem;
 }
+.popular-suggestions .skeleton_list :nth-child(40) {
+  width: 27rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(41) {
+  width: 13rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(42) {
+  width: 6rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(43) {
+  width: 3rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(44) {
+  width: 1rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(45) {
+  width: 24rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(46) {
+  width: 13rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
 .popular-suggestions .skeleton_list :nth-child(47) {
-  width: 25rem;
+  width: 9rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -399,7 +399,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(48) {
-  width: 24rem;
+  width: 8rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -407,7 +407,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(49) {
-  width: 23rem;
+  width: 4rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -415,7 +415,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(50) {
-  width: 24rem;
+  width: 30rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
