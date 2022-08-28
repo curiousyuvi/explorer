@@ -13,8 +13,8 @@
 
 .big-search_input {
   width: 100%;
-  font-size: xx-large;
-  padding: 1.5rem;
+  font-size: large;
+  padding: 0.8rem;
   border: none;
   outline: none;
   background-color: rgba(255, 255, 255, 0);
@@ -23,7 +23,19 @@
 
 .big-search_icon {
   position: absolute;
-  right: 2rem;
-  font-size: $xxx-large;
+  right: 1rem;
+  font-size: x-large;
   color: $xlight-font-color;
+}
+
+@media (min-width: 640px) {
+  .big-search_input {
+    font-size: xx-large;
+    padding: 1.5rem;
+  }
+
+  .big-search_icon {
+    right: 2rem;
+    font-size: $xxx-large;
+  }
 }

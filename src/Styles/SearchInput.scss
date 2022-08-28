@@ -2,7 +2,7 @@
 @import "./Mixins.scss";
 
 .search_wrapper {
-  width: 40rem;
+  width: 100%;
   max-width: $max-w;
   position: relative;
   display: flex;
@@ -27,4 +27,14 @@
   right: 1rem;
   font-size: large;
   color: $xlight-font-color;
+}
+
+@media (min-width: 1024px) {
+  .filter-panel {
+    display: block;
+  }
+
+  .search_input {
+    width: 40rem;
+  }
 }
