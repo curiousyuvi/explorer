@@ -13,6 +13,8 @@ h1 {
   position: fixed;
   margin-top: 4rem;
   padding: 2rem;
+  font-weight: 500;
+  font-size: xx-large;
 }
 
 .search-navbar .logo {

@@ -26,7 +26,9 @@ const ProductCard = ({ product }: { product: Product }) => {
       <div className="detail-wrapper">
         <p className="title">{product.title}</p>
         <div className="price-wrapper">
-          <p className="previous-price">{"Rs." + product.price}</p>
+          <p className="previous-price">
+            {"Rs." + (parseInt(product.price) + 800).toString()}
+          </p>
           <p className="price">{"Rs." + product.price}</p>
         </div>
         <div className="rating-wrapper">
