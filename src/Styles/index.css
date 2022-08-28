@@ -8,4 +8,9 @@ body {
   margin: 0;
   padding: 0;
   color: rgb(53, 53, 53);
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 3rem;
 }/*# sourceMappingURL=index.css.map */

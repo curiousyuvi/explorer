@@ -1,0 +1,15 @@
+@import "./Mixins.scss";
+
+.search-results {
+  @include full-screen;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  .panel-wrapper {
+    @include full-screen;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+  }
+}

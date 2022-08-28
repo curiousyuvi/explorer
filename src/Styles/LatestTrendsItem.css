@@ -5,8 +5,11 @@
   justify-items: start;
   margin-right: 1rem;
   text-decoration: none !important;
+  transition-duration: 300ms;
+  transition-property: all;
 }
 .latest-trends-item div {
+  position: relative;
   width: 13rem;
   height: 18rem;
   background-color: white;
@@ -26,4 +29,24 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.latest-trends-item .sheet {
+  position: absolute;
+  bottom: 0;
+  border-radius: 0;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: rgba(89, 0, 255, 0.432);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.latest-trends-item .sheet_icon {
+  font-size: x-large;
+  color: white;
+}
+.latest-trends-item div:hover .sheet {
+  opacity: 100%;
 }/*# sourceMappingURL=LatestTrendsItem.css.map */

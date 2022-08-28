@@ -1,0 +1,10 @@
+.products-panel {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  padding-left: 25rem;
+  padding-top: 12rem;
+}

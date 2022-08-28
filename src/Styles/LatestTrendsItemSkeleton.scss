@@ -11,13 +11,12 @@
   .image-placeholder {
     width: 13rem;
     height: 18rem;
-    background-color: white;
+    background-color: $skeleton-background;
     border-radius: 1rem;
   }
 
   .title-placeholder {
-    background-color: $xlight-font-color;
-    opacity: 30%;
+    background-color: $skeleton-background;
     height: 1rem;
     width: 10rem;
     margin-top: 1rem;

@@ -1,0 +1,18 @@
+@import "./Variables.scss";
+
+.stars {
+  display: flex;
+  align-items: center;
+
+  .fill {
+    color: $star-color;
+    margin-right: 0.2rem;
+    font-size: large;
+  }
+
+  .empty {
+    color: lightgray;
+    font-size: large;
+    margin-right: 0.2rem;
+  }
+}
