@@ -1,15 +1,94 @@
+.product-card {
+  width: 100%;
+  height: 34rem;
+  cursor: pointer;
+}
 .product-card .image-wrapper {
   position: relative;
-  width: 13rem;
-  height: 18rem;
+  width: 100%;
+  height: 24rem;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  padding: 1.5rem;
   border-radius: 1rem;
-  padding: 0.5rem;
+  border: 1px solid rgba(39, 39, 39, 0.18);
+  overflow: hidden;
+  margin-bottom: 1rem;
 }
 .product-card .image {
-  height: 100%;
+  width: 100%;
+}
+.product-card .sheet {
+  position: absolute;
+  background-color: rgba(89, 0, 255, 0.432);
+  width: 100%;
+  padding: 0.5rem;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.product-card .sheet .sheet_content {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+.product-card .title {
+  padding: 0;
+  margin: 0.5rem 0;
+  color: rgb(53, 53, 53);
+  width: 100%;
+  line-height: 1.5rem;
+  height: 3rem;
+  overflow: hidden;
+  font-weight: 400;
+}
+.product-card .price-wrapper {
+  display: flex;
+}
+.product-card .price {
+  padding: 0;
+  margin: 0 1rem;
+  color: rgba(116, 77, 255, 0.747);
+  font-weight: 600;
+  font-size: x-large;
+}
+.product-card .previous-price {
+  padding: 0;
+  margin: 0 0;
+  color: rgba(39, 39, 39, 0.7);
+  font-weight: 300;
+  text-decoration: line-through;
+  font-size: x-large;
+}
+.product-card .rating-wrapper {
+  display: flex;
+}
+.product-card .rating-wrapper span {
+  margin-left: 0.3rem;
+  margin-top: 0.5rem;
+  color: rgba(39, 39, 39, 0.7);
+}
+.product-card .like-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  border: none;
+  outline: none;
+  background: none;
+  color: rgba(39, 39, 39, 0.5);
+  opacity: 0.4;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.product-card .liked {
+  opacity: 1;
+  color: red;
+}
+
+.product-card:hover .sheet {
+  display: flex;
 }/*# sourceMappingURL=ProductCard.css.map */

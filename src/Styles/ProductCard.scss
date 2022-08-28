@@ -1,25 +1,106 @@
+@import "./Mixins.scss";
+@import "./Variables.scss";
+
 .product-card {
+  width: 100%;
+  height: 34rem;
+  cursor: pointer;
+
   .image-wrapper {
     position: relative;
     width: 100%;
-    height: 90%;
+    height: 24rem;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    padding: 1.5rem;
     border-radius: 1rem;
-    padding: 0.5rem;
+    border: 1px solid $glass-border-color;
+    overflow: hidden;
+    margin-bottom: 1rem;
   }
   .image {
-    height: 100%;
+    width: 100%;
   }
 
-  p {
-    color: $light-font-color;
-    width: 12rem;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  .sheet {
+    position: absolute;
+    background-color: $sheet-color;
+    width: 100%;
+    padding: 0.5rem;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    .sheet_content {
+      color: white;
+      padding: 0;
+      margin: 0;
+      font-weight: 500;
+    }
   }
+
+  .title {
+    padding: 0;
+    margin: 0.5rem 0;
+    color: $base-font-color;
+    width: 100%;
+    line-height: 1.5rem;
+    height: 3rem;
+    overflow: hidden;
+    font-weight: 400;
+  }
+
+  .price-wrapper {
+    display: flex;
+  }
+
+  .price {
+    padding: 0;
+    margin: 0 1rem;
+    color: $blue-primary;
+    font-weight: 600;
+    font-size: x-large;
+  }
+
+  .previous-price {
+    padding: 0;
+    margin: 0 0;
+    color: $light-font-color;
+    font-weight: 300;
+    text-decoration: line-through;
+    font-size: x-large;
+  }
+
+  .rating-wrapper {
+    display: flex;
+    span {
+      margin-left: 0.3rem;
+      margin-top: 0.5rem;
+      color: $light-font-color;
+    }
+  }
+
+  .like-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    border: none;
+    outline: none;
+    background: none;
+    color: $xlight-font-color;
+    opacity: 0.4;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .liked {
+    opacity: 1;
+    color: red;
+  }
+}
+
+.product-card:hover .sheet {
+  display: flex;
 }
