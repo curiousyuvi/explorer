@@ -1,16 +1,12 @@
-import React, { ReactNode } from "react";
+import React, { ReactNode, useState } from "react";
 import "../Styles/FilterSelector.css";
 import { MdCheckBox, MdCheckBoxOutlineBlank } from "react-icons/md";
 
-const FilterSelector = ({
-  children,
-  checked,
-  handleChange,
-}: {
-  children: ReactNode;
-  checked: boolean;
-  handleChange: () => void;
-}) => {
+const MockFilterSelector = ({ children }: { children: ReactNode }) => {
+  const [checked, setChecked] = useState<boolean>(false);
+  const handleChange = () => {
+    setChecked(!checked);
+  };
   return (
     <div className="filter-selector">
       <input type="checkbox" checked={checked} onChange={handleChange} />
@@ -24,4 +20,4 @@ const FilterSelector = ({
   );
 };
 
-export default FilterSelector;
+export default MockFilterSelector;

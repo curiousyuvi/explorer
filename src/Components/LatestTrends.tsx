@@ -12,7 +12,7 @@ const LatestTrends = () => {
   useEffect(() => {
     const loadItems = async () => {
       setLoading(true);
-      setItems(await getProducts());
+      setItems(await getProducts(6));
       setLoading(false);
     };
 
@@ -24,13 +24,18 @@ const LatestTrends = () => {
       <h2>Latest Trends</h2>
       <div className="latest-trends_list">
         {!loading
-          ? items.map((item) => {
-              return <LatestTrendsItem product={item} />;
+          ? items.map((item, index) => {
+              return (
+                <LatestTrendsItem
+                  key={item.id.toString() + index.toString()}
+                  product={item}
+                />
+              );
             })
           : Array(6)
               .fill("NaN")
-              .map((e) => {
-                return <LatestTrendsItemSkeleton />;
+              .map((e, index) => {
+                return <LatestTrendsItemSkeleton key={index} />;
               })}
       </div>
     </div>

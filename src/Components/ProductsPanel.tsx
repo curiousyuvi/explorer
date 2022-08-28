@@ -9,10 +9,17 @@ const ProductsPanel = () => {
   return (
     <div className="products-panel">
       {!loading
-        ? products.map((product) => <ProductCard product={product} />)
+        ? products.map((product, index) => (
+            <ProductCard
+              key={product.id.toString() + index.toString()}
+              product={product}
+            />
+          ))
         : Array(20)
             .fill("NaN")
-            .map((e) => <ProductCardSkeleton />)}
+            .map((e, index) => (
+              <ProductCardSkeleton key={e.toString() + index} />
+            ))}
     </div>
   );
 };

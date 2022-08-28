@@ -21,7 +21,14 @@ const PopularSuggestions = () => {
     <div className="popular-suggestions">
       <h2>Popular Suggestions</h2>
       {!loading ? (
-        items.map((item) => <Link to={`/${item.title}`}>{item.title}</Link>)
+        items.map((item, index) => (
+          <Link
+            key={item.id.toString() + index.toString()}
+            to={`/${item.title}`}
+          >
+            {item.title}
+          </Link>
+        ))
       ) : (
         <SkeletonList />
       )}
@@ -34,8 +41,8 @@ const SkeletonList = () => {
     <div className="skeleton_list">
       {Array(4)
         .fill("NaN")
-        .map((e) => (
-          <div className="skeleton_item" />
+        .map((e, index) => (
+          <div key={e + index.toString()} className="skeleton_item" />
         ))}
     </div>
   );

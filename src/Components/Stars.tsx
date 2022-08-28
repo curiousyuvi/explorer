@@ -7,13 +7,13 @@ const Stars = ({ rating }: { rating: 1 | 2 | 3 | 4 | 5 }) => {
     <div className="stars">
       {Array(rating)
         .fill("NaN")
-        .map((e) => (
-          <ImStarFull className="fill" />
+        .map((e, index) => (
+          <ImStarFull key={e.toString() + index} className="fill" />
         ))}
       {Array(5 - rating)
         .fill("NaN")
-        .map((e) => (
-          <ImStarEmpty className="empty" />
+        .map((e, index) => (
+          <ImStarEmpty key={e.toString() + index} className="empty" />
         ))}
     </div>
   );
