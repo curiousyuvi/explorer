@@ -1,7 +1,8 @@
-@import "./Mixins.scss";
-
 .products-panel {
-  height: calc(100%-2rem);
+  height: 100%;
   width: 100%;
-  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding-left: 25rem;
+  padding-top: 12rem;
 }

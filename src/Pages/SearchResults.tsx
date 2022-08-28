@@ -10,7 +10,6 @@ const SearchResults = () => {
     <SearchResultsProvider>
       <div className="search-results">
         <SearchNavbar />
-        <h1>Search Results</h1>
         <div className="panel-wrapper">
           <FilterPanel />
           <ProductsPanel />

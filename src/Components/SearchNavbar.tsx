@@ -15,19 +15,22 @@ const SearchNavbar = () => {
     navigator(`/${query}`);
   };
   return (
-    <div className="search-navbar">
-      <span />
-      <form onSubmit={handleFormSubmit}>
-        <SearchInput
-          onChange={handleInputChange}
-          value={query}
-          placeholder="Search for products"
-        />
-      </form>
-      <Link to="/">
-        <img src="/logo.png" alt="EXPLORER" className="logo" />
-      </Link>
-    </div>
+    <>
+      <div className="search-navbar">
+        <span />
+        <form onSubmit={handleFormSubmit}>
+          <SearchInput
+            onChange={handleInputChange}
+            value={query}
+            placeholder="Search for products"
+          />
+        </form>
+        <Link to="/">
+          <img src="/logo.png" alt="EXPLORER" className="logo" />
+        </Link>
+      </div>
+      <h1>Search Results</h1>
+    </>
   );
 };
 

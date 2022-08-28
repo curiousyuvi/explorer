@@ -1,8 +1,17 @@
 import React from "react";
+import useSeachResults from "../Hooks/useSearchResults";
 import "../Styles/ProductsPanel.css";
+import ProductCard from "./ProductCard";
 
 const ProductsPanel = () => {
-  return <div className="products-panel"></div>;
+  const { products } = useSeachResults();
+  return (
+    <div className="products-panel">
+      {products.map((product) => (
+        <ProductCard product={product} />
+      ))}
+    </div>
+  );
 };
 
 export default ProductsPanel;

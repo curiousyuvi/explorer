@@ -23,102 +23,6 @@
   font-size: x-large;
 }
 .popular-suggestions .skeleton_list :nth-child(1) {
-  width: 22rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(2) {
-  width: 27rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(3) {
-  width: 2rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(4) {
-  width: 6rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(5) {
-  width: 13rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(6) {
-  width: 16rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(7) {
-  width: 6rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(8) {
-  width: 27rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(9) {
-  width: 9rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(10) {
-  width: 29rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(11) {
-  width: 18rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(12) {
-  width: 7rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(13) {
   width: 3rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
@@ -126,7 +30,95 @@
   margin-bottom: 1rem;
   border-radius: 1rem;
 }
-.popular-suggestions .skeleton_list :nth-child(14) {
+.popular-suggestions .skeleton_list :nth-child(2) {
+  width: 28rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(3) {
+  width: 4rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(4) {
+  width: 21rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(5) {
+  width: 3rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(6) {
+  width: 28rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(7) {
+  width: 12rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(8) {
+  width: 16rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(9) {
+  width: 15rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(10) {
+  width: 17rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(11) {
+  width: 22rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(12) {
+  width: 8rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(13) {
   width: 10rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
@@ -134,8 +126,16 @@
   margin-bottom: 1rem;
   border-radius: 1rem;
 }
+.popular-suggestions .skeleton_list :nth-child(14) {
+  width: 16rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
 .popular-suggestions .skeleton_list :nth-child(15) {
-  width: 6rem;
+  width: 14rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -143,7 +143,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(16) {
-  width: 23rem;
+  width: 16rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -159,7 +159,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(18) {
-  width: 30rem;
+  width: 29rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -167,7 +167,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(19) {
-  width: 25rem;
+  width: 9rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -175,7 +175,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(20) {
-  width: 15rem;
+  width: 27rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -183,7 +183,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(21) {
-  width: 8rem;
+  width: 7rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -191,7 +191,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(22) {
-  width: 29rem;
+  width: 27rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -199,7 +199,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(23) {
-  width: 3rem;
+  width: 13rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -207,7 +207,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(24) {
-  width: 2rem;
+  width: 16rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -215,7 +215,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(25) {
-  width: 27rem;
+  width: 7rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -223,7 +223,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(26) {
-  width: 28rem;
+  width: 24rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -231,7 +231,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(27) {
-  width: 1rem;
+  width: 23rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -239,7 +239,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(28) {
-  width: 15rem;
+  width: 30rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -247,22 +247,6 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(29) {
-  width: 5rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(30) {
-  width: 22rem;
-  height: 1rem;
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-.popular-suggestions .skeleton_list :nth-child(31) {
   width: 12rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
@@ -270,15 +254,15 @@
   margin-bottom: 1rem;
   border-radius: 1rem;
 }
-.popular-suggestions .skeleton_list :nth-child(32) {
-  width: 4rem;
+.popular-suggestions .skeleton_list :nth-child(30) {
+  width: 14rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
   margin-bottom: 1rem;
   border-radius: 1rem;
 }
-.popular-suggestions .skeleton_list :nth-child(33) {
+.popular-suggestions .skeleton_list :nth-child(31) {
   width: 11rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
@@ -286,8 +270,24 @@
   margin-bottom: 1rem;
   border-radius: 1rem;
 }
+.popular-suggestions .skeleton_list :nth-child(32) {
+  width: 23rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.popular-suggestions .skeleton_list :nth-child(33) {
+  width: 30rem;
+  height: 1rem;
+  background-color: rgba(39, 39, 39, 0.5);
+  opacity: 30%;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
 .popular-suggestions .skeleton_list :nth-child(34) {
-  width: 8rem;
+  width: 21rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -295,7 +295,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(35) {
-  width: 14rem;
+  width: 7rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -303,7 +303,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(36) {
-  width: 23rem;
+  width: 6rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -311,7 +311,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(37) {
-  width: 25rem;
+  width: 7rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -319,7 +319,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(38) {
-  width: 10rem;
+  width: 2rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -327,7 +327,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(39) {
-  width: 19rem;
+  width: 24rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -335,7 +335,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(40) {
-  width: 27rem;
+  width: 11rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -343,7 +343,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(41) {
-  width: 29rem;
+  width: 6rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -351,7 +351,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(42) {
-  width: 23rem;
+  width: 12rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -359,7 +359,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(43) {
-  width: 29rem;
+  width: 25rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -367,7 +367,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(44) {
-  width: 23rem;
+  width: 29rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -375,7 +375,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(45) {
-  width: 28rem;
+  width: 10rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -383,7 +383,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(46) {
-  width: 14rem;
+  width: 17rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -391,7 +391,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(47) {
-  width: 1rem;
+  width: 11rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -399,7 +399,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(48) {
-  width: 8rem;
+  width: 28rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
@@ -407,7 +407,7 @@
   border-radius: 1rem;
 }
 .popular-suggestions .skeleton_list :nth-child(49) {
-  width: 30rem;
+  width: 19rem;
   height: 1rem;
   background-color: rgba(39, 39, 39, 0.5);
   opacity: 30%;
