@@ -9,12 +9,11 @@
 .latest-trends-item-skeleton .image-placeholder {
   width: 13rem;
   height: 18rem;
-  background-color: white;
+  background-color: rgba(128, 128, 128, 0.253);
   border-radius: 1rem;
 }
 .latest-trends-item-skeleton .title-placeholder {
-  background-color: rgba(39, 39, 39, 0.5);
-  opacity: 30%;
+  background-color: rgba(128, 128, 128, 0.253);
   height: 1rem;
   width: 10rem;
   margin-top: 1rem;
