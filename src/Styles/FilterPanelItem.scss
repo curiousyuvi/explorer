@@ -17,9 +17,12 @@
   .item_content {
     display: flex;
     flex-direction: column;
+    max-height: 300px;
+    transition: max-height 0.2s ease-out;
+    overflow: hidden;
   }
 
   .item_content.collapsed {
-    display: none;
+    max-height: 0px;
   }
 }
