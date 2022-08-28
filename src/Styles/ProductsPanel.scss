@@ -1,5 +1,7 @@
 @import "./Mixins.scss";
 
 .products-panel {
-  @include full-screen;
+  height: calc(100%-2rem);
+  width: 100%;
+  overflow-y: auto;
 }
