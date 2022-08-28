@@ -1,0 +1,14 @@
+.stars {
+  display: flex;
+  align-items: center;
+}
+.stars .fill {
+  color: #fdd33d;
+  margin-right: 0.2rem;
+  font-size: large;
+}
+.stars .empty {
+  color: lightgray;
+  font-size: large;
+  margin-right: 0.2rem;
+}/*# sourceMappingURL=Stars.css.map */
