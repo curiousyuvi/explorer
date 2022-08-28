@@ -1,5 +1,5 @@
 .search_wrapper {
-  width: 40rem;
+  width: 100%;
   max-width: 72rem;
   position: relative;
   display: flex;
@@ -27,4 +27,13 @@
   right: 1rem;
   font-size: large;
   color: rgba(39, 39, 39, 0.5);
+}
+
+@media (min-width: 1024px) {
+  .filter-panel {
+    display: block;
+  }
+  .search_input {
+    width: 40rem;
+  }
 }/*# sourceMappingURL=SearchInput.css.map */

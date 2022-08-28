@@ -6,7 +6,7 @@
 .product-card .image-wrapper {
   position: relative;
   width: 100%;
-  height: 24rem;
+  height: 18rem;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -41,8 +41,9 @@
   margin: 0.5rem 0;
   color: rgb(53, 53, 53);
   width: 100%;
-  line-height: 1.5rem;
-  height: 3rem;
+  line-height: 1rem;
+  height: 2rem;
+  font-size: small;
   overflow: hidden;
   font-weight: 400;
 }
@@ -54,7 +55,7 @@
   margin: 0 1rem;
   color: rgba(116, 77, 255, 0.747);
   font-weight: 600;
-  font-size: x-large;
+  font-size: large;
 }
 .product-card .previous-price {
   padding: 0;
@@ -62,7 +63,7 @@
   color: rgba(39, 39, 39, 0.7);
   font-weight: 300;
   text-decoration: line-through;
-  font-size: x-large;
+  font-size: large;
 }
 .product-card .rating-wrapper {
   display: flex;
@@ -91,4 +92,21 @@
 
 .product-card:hover .sheet {
   display: flex;
+}
+
+@media (min-width: 1024px) {
+  .product-card .image-wrapper {
+    height: 24rem;
+  }
+  .product-card .title {
+    line-height: 1.5rem;
+    height: 3rem;
+    font-size: medium;
+  }
+  .product-card .previous-price {
+    font-size: x-large;
+  }
+  .product-card .price {
+    font-size: x-large;
+  }
 }/*# sourceMappingURL=ProductCard.css.map */

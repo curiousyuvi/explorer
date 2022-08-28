@@ -8,15 +8,27 @@
   background-color: white;
   padding: 1.5rem;
 }
+.search-navbar .logo {
+  width: 7rem;
+  margin-left: 2rem;
+}
 
-h1 {
+.search-navbar + h1 {
   position: fixed;
   margin-top: 4rem;
   padding: 2rem;
   font-weight: 500;
   font-size: xx-large;
+  display: none;
 }
 
-.search-navbar .logo {
-  width: 10rem;
+@media (min-width: 640px) {
+  .search-navbar .logo {
+    width: 10rem;
+  }
+}
+@media (min-width: 1280px) {
+  .search-navbar + h1 {
+    display: block;
+  }
 }/*# sourceMappingURL=SearchNavbar.css.map */
